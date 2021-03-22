@@ -1,11 +1,5 @@
-# tuto_flutter
+# tuto_flutter_inputs
 
-Flutter project to introduce flutter
-
-## List Widget
-
-https://flutter.dev/docs/development/ui/widgets
-
-## Dart ressource :
-
-http://dartlang.org/
+- Create a new flutter app (in this project) and output an AppBar and some text below it
+- Add a button which changes the text (to any other text of your choice)
+- Split the app into three widgets: App, TextControl & Text

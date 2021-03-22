@@ -1,6 +1,6 @@
 {
-    "name": "tuto_flutter",
-    "short_name": "tuto_flutter",
+    "name": "tuto_flutter_inputs",
+    "short_name": "tuto_flutter_inputs",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
