@@ -5,7 +5,7 @@ main() {
 }
 
 class MyApp extends StatelessWidget {
-  build(context) {
+  Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
