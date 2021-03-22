@@ -22,21 +22,27 @@ class _MyAppState extends State<MyApp> {
         body: Column(children: [
           Container(
             margin: EdgeInsets.all(10.0),
-            child: ElevatedButton(onPressed: () {}, child: Text('Add product')),
+            child: ElevatedButton(
+                onPressed: () {
+                  setState(() {                
+                    _products.add('Advanced food tester');
+                  });
+                },
+                child: Text('Add product')),
           ),
           Column(
-            children: _products
-              .map((element) => Card(
-                  child: Column(
-                    children: <Widget>[
-                      Image.asset('assets/food.jpg'),
-                      Text(element)
-                    ],
-                  ),
-                ),
-              )
-            .toList()
-          ),
+              children: _products
+                  .map(
+                    (element) => Card(
+                      child: Column(
+                        children: <Widget>[
+                          Image.asset('assets/food.jpg'),
+                          Text(element)
+                        ],
+                      ),
+                    ),
+                  )
+                  .toList()),
         ]),
       ),
     );
